@@ -1,5 +1,7 @@
-/** used from Josh Brake E155 Starter code now being used for 
-  
+/** used from Josh Brake E155 Starter code
+    @file main.h
+    @author Broderick Bownds
+    @version 10/20/2025
 */
 
 
@@ -8,7 +10,7 @@
 
 #include "STM32L432KC.h"
 
-#define  // pin
-#define  // pin
+#define LED_PIN PB0 // LED pin for blinking on Port B pin 3
+#define BUFF_LEN 32
 
 #endif // MAIN_H
