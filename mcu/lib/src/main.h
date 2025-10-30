@@ -1,8 +1,5 @@
-/** used from Josh Brake E155 Starter code
-    Main Header: Contains general defines and selected portions of CMSIS files
-    @file main.h
-    @author Broderick Bownds
-    @version 10/20/2025
+/** used from Josh Brake E155 Starter code now being used for 
+  
 */
 
 
@@ -11,7 +8,7 @@
 
 #include "STM32L432KC.h"
 
-#define LED_PIN PB0 // LED pin for blinking on Port B pin 3
-#define BUFF_LEN 32
+#define  // pin
+#define  // pin
 
 #endif // MAIN_H

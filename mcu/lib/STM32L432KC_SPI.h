@@ -1,9 +1,5 @@
-// STM32L432KC_SPI.h
-// Broderick Bownds
-// brbownds@hmc.edu
-// 10/20/2025
-
-// This is the new header for the SPI functions with pins configured to the temperature sensor. 
+ // STM32F401RE_SPI.h
+// Header for SPI functions
 
 #ifndef STM32L4_SPI_H
 #define STM32L4_SPI_H
@@ -11,8 +7,8 @@
 #include <stdint.h>
 #include <stm32l432xx.h>
 
-// define SPI pins
-#define SPI_CE PB1
+
+#define SPI_CE PA11
 #define SPI_SCK PB3
 #define SPI_MOSI PB5
 #define SPI_MISO PB4
